@@ -1,15 +1,15 @@
 provisioners:
   textReplace:
     Dockerfile:
-      from: "FROM chatwork/mod:{{ .mod.previousVersion }}"
-      to: "FROM chatwork/mod:{{ .mod.version }}"
+      from: "FROM variantdev/mod:{{ .mod.previousVersion }}"
+      to: "FROM variantdev/mod:{{ .mod.version }}"
     README.md:
-      from: "chatwork/mod-action@{{ .mod.previousVersion }}"
-      to: "chatwork/mod-action@{{ .mod.version }}"
+      from: "variantdev/mod-action@{{ .mod.previousVersion }}"
+      to: "variantdev/mod-action@{{ .mod.version }}"
 
 dependencies:
   mod:
     releasesFrom:
       dockerImageTags:
-        source: chatwork/mod
+        source: variantdev/mod
       version: "> 0.2.1"
