@@ -4,8 +4,8 @@ provisioners:
       from: "FROM variantdev/mod:{{ .mod.previousVersion }}"
       to: "FROM variantdev/mod:{{ .mod.version }}"
     README.md:
-      from: "variantdev/mod-action@{{ .mod.previousVersion }}"
-      to: "variantdev/mod-action@{{ .mod.version }}"
+      from: "variantdev/mod-action@v{{ .mod.previousVersion }}"
+      to: "variantdev/mod-action@v{{ .mod.version }}"
 
 dependencies:
   mod:
