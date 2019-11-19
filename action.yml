@@ -1,0 +1,8 @@
+name: variantdev/mod
+description: Package manager for Makefile and Variantfile. Any set of files in Git/S3/GCS/HTTP as a reusable and parameterized module
+branding:
+  icon: octagon
+  color: orange
+runs:
+  using: docker
+  image: ./Dockerfile
