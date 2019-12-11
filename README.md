@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
     - uses: actions/checkout@v1
-    - uses: variantdev/mod-action@v0.7.2
+    - uses: variantdev/mod-action@v0.7.3
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
