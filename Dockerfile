@@ -1,4 +1,4 @@
-FROM variantdev/mod:0.6.2
+FROM variantdev/mod:0.7.0
 
 LABEL "com.github.actions.name"="variantdev/mod"
 LABEL "com.github.actions.description"="Package manager for Makefile and Variantfile. Any set of files in Git/S3/GCS/HTTP as a reusable and parameterized module"
