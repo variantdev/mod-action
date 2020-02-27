@@ -1,4 +1,4 @@
 dependencies:
   mod:
-    version: 0.13.1
-    previousVersion: 0.13.0
+    version: 0.13.4
+    previousVersion: 0.13.1
